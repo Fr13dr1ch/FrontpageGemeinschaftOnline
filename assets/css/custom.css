@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+#logo{
+  width: 225px;
+  padding: 10px;
+}
+
+.header{
+  background-color: white;
+}
+
+.header__link{
+  text-decoration: none;
+}
+
+.main-footer{
+  background-color: white;
+}
