@@ -8,6 +8,10 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+.header{
+  background: transparent;
+}
+
 #logo{
   width: 225px;
   padding: 10px;
