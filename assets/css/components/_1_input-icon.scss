@@ -1,0 +1,39 @@
+/* -------------------------------- 
+
+File#: _1_input-icon
+Title: Input Icon
+Descr: Use icon within form control
+Usage: codyhouse.co/license
+
+-------------------------------- */
+
+.form-control-wrapper {
+  position: relative;
+
+  .icon {
+    display: block;
+    position: absolute;
+    top: calc(50% - 0.5em);
+    pointer-events: none;
+  }
+}
+
+.form-control-wrapper--icon-left {
+  .icon {
+    left: var(--form-control-padding-x);
+  }
+
+  .form-control {
+    padding-left: calc(var(--form-control-padding-x) + 1em + var(--space-xxs));
+  }
+}
+
+.form-control-wrapper--icon-right {
+  .icon {
+    right: var(--form-control-padding-x);
+  }
+
+  .form-control {
+    padding-right: calc(var(--form-control-padding-x) + 1em + var(--space-xxs));
+  }
+}

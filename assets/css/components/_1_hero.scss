@@ -13,14 +13,14 @@ Usage: codyhouse.co/license
   display: flex;
   align-items: center;
   background-color: var(--color-bg);
-  min-height: 380px;
+  min-height: 200px;
   // if bg = img
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 
   @include breakpoint(md) {
-    min-height: 540px;
+    min-height: 200px;
   }
 }
 

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Dosis', sans-serif;
 }
@@ -9,14 +13,26 @@ body {
   padding: 10px;
 }
 
-.header{
-  background-color: white;
-}
-
 .header__link{
   text-decoration: none;
 }
 
-.main-footer{
+.hero{
+  min-hight: 200px!important;
+}
+
+#faq{
+  background-color: coral;
+}
+
+li > div, .light {
   background-color: white;
+  padding: 20px;
+}
+
+#hotlines{
+background-image: url("../img/blur.png");
+background-size: cover;
+min-height: 350px;
+width: 100%;
 }
