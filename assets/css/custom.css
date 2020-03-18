@@ -32,10 +32,3 @@ li > div, .light {
   background-color: white;
   padding: 20px;
 }
-
-#hotlines{
-background-image: url("../img/blur.png");
-background-size: cover;
-min-height: 350px;
-width: 100%;
-}
