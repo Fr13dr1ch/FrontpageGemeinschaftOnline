@@ -20,153 +20,22 @@
     <link rel="stylesheet" href="assets/css/style-fallback.css">
   </noscript>
   <link rel="stylesheet" href="assets/css/custom.css">
-  <title>Gemeinschaft.online</title>
+  <title>Gemeinschaft.Online</title>
 </head>
 <body>
 
   <header class="header js-header">
     <div class="header__container container max-width-lg">
       <div class="header__logo">
-        <a href="#0">
-          <img id="logo" src="assets/img/logo.png">
+        <a>
+          <img class="display@md padding-y-md" id="logo" src="assets/img/logo.png">
+          <img class="hide@md padding-top-md" id="logo" src="assets/img/logo.png">
         </a>
       </div>
-      <div class="td-drawer  js-td-drawer" id="td-drawer-1">
-        <div class="td-drawer__content" role="alertdialog" tabindex="-1"  aria-labelledby="td-drawer-title-1">
-          <header class="td-drawer__header">
-            <h4 id="td-drawer-title-1">Jetzt Hilfe per Formular anfordern</h4>
-
-            <button class="reset td-drawer__close-btn js-td-drawer__close">
-              <svg class="icon" viewBox="0 0 16 16"><title>Close panel</title><g stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line><line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line></g></svg>
-            </button>
-          </header>
-
-          <div class="td-drawer__body js-td-drawer__body">
-            <div class="text-component color-contrast-medium">
-              <h2>Sie brauchen Hilfe bei etwas?</h2>
-              <p>Hier können Sie eine Anfrage an das Nachbarschaftsnetzwerk stellen.<br>
-                Wir versuchen bei nebenan.de jemanden zu finden, der Ihnen dabei hilft. Wenn jemand in ihrer direkten Nachbarschaft helfen kann. Erhalten Sie einen Rückruf.<p>
-              
-
-             <div class="margin-bottom-xs">
-              <!--<label class="form-label margin-bottom-xxs" for="inputDomainX">Domain:</label>-->
-                <div class="input-group">
-                  <div class="input-group__tag">Telefonnummer</div>
-                  <input class="form-control flex-grow" type="text" name="inputDomainX" id="inputDomainX">
-                </div>
-              </div>
-
-              <div class="margin-bottom-xs">
-                <!--<label class="form-label margin-bottom-xxs" for="inputDomainX">Domain:</label>-->
-                  <div class="input-group">
-                    <div class="input-group__tag">Postleitzahl</div>
-                    <input class="form-control flex-grow" type="text" name="inputDomainX" id="inputDomainX">
-                  </div>
-                </div>
-              </div>
-              
-              <form class="margin-y-xs">
-                <fieldset>
-                  <div class="choice-btns gap-xxs js-choice-btns">
-                    <div class="choice-btn padding-sm js-choice-btn">
-                      <div class="choice-btn__fallback">
-                        <input type="radio" name="choiceButtons" id="choiceButton1" checked>
-                        <label for="choiceButton1">Einkaufen</label>
-                      </div>
-              
-                      <div class="choice-btn__grid" aria-hidden="true">
-                        <div class="choice-btn__input choice-btn__input--radio">
-                          <svg class="icon" viewBox="0 0 16 16"><circle fill="currentColor" cx="8" cy="8" r="4"/></svg>
-                        </div>
-              
-                        <div class="flex flex-wrap gap-xs justify-between">
-                          <div>
-                            <p class="color-contrast-higher font-bold">Einkaufen</p>
-                            <!--<p class="color-contrast-medium text-sm">Placeholder1</p>-->
-                          </div>
-                
-                          <p class="color-contrast-higher font-bold"></p>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="choice-btn padding-sm js-choice-btn">
-                      <div class="choice-btn__fallback">
-                        <input type="radio" name="choiceButtons" id="choiceButton2" null>
-                        <label for="choiceButton2">Haustieren</label>
-                      </div>
-              
-                      <div class="choice-btn__grid" aria-hidden="true">
-                        <div class="choice-btn__input choice-btn__input--radio">
-                          <svg class="icon" viewBox="0 0 16 16"><circle fill="currentColor" cx="8" cy="8" r="4"/></svg>
-                        </div>
-              
-                        <div class="flex flex-wrap gap-xs justify-between">
-                          <div>
-                            <p class="color-contrast-higher font-bold">Haustieren</p>
-                            <!--<p class="color-contrast-medium text-sm">Placeholder1</p>-->
-                          </div>
-                
-                          <p class="color-contrast-higher font-bold"></p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="choice-btn padding-sm js-choice-btn">
-                      <div class="choice-btn__fallback">
-                        <input type="radio" name="choiceButtons" id="choiceButton3" null>
-                        <label for="choiceButton2">Reperaturen</label>
-                      </div>
-              
-                      <div class="choice-btn__grid" aria-hidden="true">
-                        <div class="choice-btn__input choice-btn__input--radio">
-                          <svg class="icon" viewBox="0 0 16 16"><circle fill="currentColor" cx="8" cy="8" r="4"/></svg>
-                        </div>
-              
-                        <div class="flex flex-wrap gap-xs justify-between">
-                          <div>
-                            <p class="color-contrast-higher font-bold">Reparaturen</p>
-                            <!--<p class="color-contrast-medium text-sm">Placeholder1</p>-->
-                          </div>
-                
-                          <p class="color-contrast-higher font-bold"></p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="choice-btn padding-sm js-choice-btn">
-                      <div class="choice-btn__fallback">
-                        <input type="radio" name="choiceButtons" id="choiceButton4" null>
-                        <label for="choiceButton2">Sonstiges</label>
-                      </div>
-              
-                      <div class="choice-btn__grid" aria-hidden="true">
-                        <div class="choice-btn__input choice-btn__input--radio">
-                          <svg class="icon" viewBox="0 0 16 16"><circle fill="currentColor" cx="8" cy="8" r="4"/></svg>
-                        </div>
-              
-                        <div class="flex flex-wrap gap-xs justify-between">
-                          <div>
-                            <p class="color-contrast-higher font-bold">Sonstiges</p>
-                            <!--<p class="color-contrast-medium text-sm">Placeholder1</p>-->
-                          </div>
-                
-                          <p class="color-contrast-higher font-bold"></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                
-              <div>
-                <button class="btn btn--primary margin-top-md">Hilfe anfordern</button>
-              </div>
-          </div>
-        </div>
-      </div>
-
+      
       <button class="btn btn--subtle header__trigger js-header__trigger" aria-label="Toggle menu" aria-expanded="false" aria-controls="header-nav">
         <i class="header__trigger-icon" aria-hidden="true"></i>
-        <span>Menu </span>
+        <span>Navigation</span>
       </button>
 
       <nav class="header__nav js-header__nav" id="header-nav" role="navigation" aria-label="Main">
@@ -182,36 +51,43 @@
     </div>
   </header>
 
-  <section class="hero padding-y-xxl" style="background-image: url('assets/img/header.jpg');">
-    <div class="container max-width-adaptive-md">
+  <section class="hero padding-y-xxl display@md color-white" style="background-image: url('assets/img/header.jpg');">
+    <div class="container max-width-adaptive-lg">
       <div class="hero__content max-width-xs">
-
         <div class="text-component margin-bottom-sm">
-          <h1>gemeinschaft.online</h1>
-          <p>Sie gehören zur Corona-Risiko-Gruppe und benötigen Unterstützung?<br>Wir sagen in Ihrer Nachbarschaft Bescheid und besorgen Ihnen Hilfe.
-            </p>
-        </div>
-
+          <h1 class="color-white">Gemeinschaft.Online</h1>
+          <p><strong>Sie gehören zur Corona-Risiko-Gruppe und benötigen Unterstützung?<br>Wir sagen in Ihrer Nachbarschaft Bescheid und besorgen Ihnen Hilfe.</strong></p>
+          </div>
         <div class="flex flex-wrap items-center gap-sm">
           <a href="#hotlines" class="btn btn--primary">Zu den Hotlines</a>
-          <!--<a href="#" class="color-inherit btn--disabled">Kein Telefon parat?</a>-->
         </div>
       </div>
     </div>
   </section>
 
+  <section class="hero padding-y-xxl hide@md">
+    <div class="container max-width-adaptive-sm">
+      <div class="hero__content">
+        <!--<img id="logo" src="assets/img/logo.png">-->
+        <div class="text-component margin-bottom-sm">
+          <h2>Sie gehören zur Corona-Risiko-Gruppe und benötigen Unterstützung?</h2><br><h4>Wir sagen in Ihrer Nachbarschaft Bescheid und besorgen Ihnen Hilfe.</h4>
+        </div>
+        <div class="flex flex-wrap items-center gap-sm">
+          <a href="#hotlines" class="btn btn--primary">Zu den Hotlines</a>
+        </div>
+      </div>
+    </div>
+  </section>
   
 
 <section id="hotlines" class="features features--img-sm">
-  <div class="text-center padding-top-xxl"><h2><strong>Coming soon...</strong></h2></div>
-
-    <!--<div class="grid gap-xl">
+    <div class="grid gap-md padding-top-md padding-bottom-xl">
       <div class="col-6@md">
         <div class="features__item text-center">
           <img class="margin-x-auto" src="assets/img/hilfe.png" alt="Image description">
           <div class="text-component">
-            <h4>Sie brauchen hilfe?</h4>
-            <p>Gemeinschaft.online-Nummer für praktische Hilfe:<br><strong style="color: coral"><h1>NUMMER GEMEINSAM.ONLINE</h1></strong>(hier können ortsübliche Telefongebühren anfallen)</p>
+            <h3>Sie brauchen Hilfe?</h3>
+            <p>Gemeinschaft.Online-Nummer für praktische Hilfe:<br><strong style="color: coral"><h1><a href="tel:071729340048">0717 29340048</a></h1></strong>(hier können ortsübliche Telefongebühren anfallen)</p>
           </div>
         </div>
       </div>
@@ -220,14 +96,14 @@
         <div class="features__item text-center">
           <img class="margin-x-auto" src="assets/img/srechen.png" alt="Image description">
           <div class="text-component">
-            <h4>Sie fühlen sich alleine?</h4>
-            <p>Sie brauchen jetzt einfach jemanden zum Reden?<br><strong style="color: coral"><h1>NUMMER ANDERE</h1></strong>Bei Silbernetz finden Sie einen Ansprechpartner
+            <h3>Sie fühlen sich alleine?</h3>
+            <p>Sie brauchen jetzt einfach jemanden zum Reden?<br><strong style="color: coral"><h1><a href="tel:08004708090">0800 4708090</a></h1></strong>Bei Silbernetz finden Sie einen Ansprechpartner
               <br>(kostenlos)
               </p>
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
     
 </section>
 
@@ -235,29 +111,28 @@
   <div class="container max-width-adaptive-md">
     <div class="light margin-y-lg light">
       <h1 class="text-center">FAQ</h1>
-      <p class="text-center">Alle Fragen rund um Gemeinschaft.online beantworten wir Ihnen hier.</p>
+      <p class="text-center">Alle Fragen rund um Gemeinschaft.Online beantworten wir Ihnen hier.</p>
     </div>
     
     <ol class="text-points text-points--counter grid gap-lg margin-bottom-lg">
       <li class="text-points__item col-6@md">
         <div class="text-component">
-          <h3 class="text-points__title">Was ist gemeinschaft.online?</h3>
-          <p>Gemeinschaft.online ist eine Unterstützung für die Vermittlung von Nachbarschaftshilfe.</p>
+          <h3 class="text-points__title">Was ist Gemeinschaft.Online?</h3>
+          <p>Gemeinschaft.Online ist eine Unterstützung für die Vermittlung von Nachbarschaftshilfe.</p>
         </div>
       </li>
 
       <li class="text-points__item col-6@md">
         <div class="text-component">
-          <h3 class="text-points__title">Wer ist Gemeinschaft.online?</h3>
-          <p>Gemeinschaft.online ist Teil von Krisenkultur.de. Krisenkultur.de ist eine Bewegung von Menschen, die sich in Zeiten der Corona-Krise zusammengefunden haben, um den Schwächsten in unserer Gesellschaft eine Möglichkeit zu schaffen, schnell und unbürokratisch Hilfe zu bekommen. Alle arbeiten ehrenamtlich an diesem Projekt. Mehr Hintergrundinformationen auf Krisenkultur.de</p>
+          <h3 class="text-points__title">Wer ist Gemeinschaft.Online?</h3>
+          <p>Gemeinschaft.Online ist Teil von Krisenkultur.de. Krisenkultur.de ist eine Bewegung von Menschen, die sich in Zeiten der Corona-Krise zusammengefunden haben, um den Schwächsten in unserer Gesellschaft eine Möglichkeit zu schaffen, schnell und unbürokratisch Hilfe zu bekommen. Alle arbeiten ehrenamtlich an diesem Projekt. Mehr Hintergrundinformationen auf Krisenkultur.de</p>
         </div>
       </li>
 
       <li class="text-points__item col-6@md">
         <div class="text-component">
-          <h3 class="text-points__title">Wer unterstützt Gemeinschaft.online?</h3>
-          <p>Der Dienst wird möglich gemacht durch unglaublich viele tolle Menschen, die spontan ihre Hilfe, Ideen, Kontakte und ihren Einfluss beigesteuert haben. Unter vielen vielen anderen bedanken wir uns bei http://easybell.de, Wege aus der Einsamkeit e.V., silbernetz e.V., http://nebenan.de, Chaos Computer Club e.V., Fridays For Future, Jugend Hackt, Microsoft Deutschland, IBM Deutschland, iRights.Lab, signal interrupt GmbH & Verstehbahnhof / havel:lab e.V. Außerdem unterstützen viele Prominente und Influencer das Projekt, um es in der Gesellschaft bekannt zu machen.
-            </p>
+          <h3 class="text-points__title">Wer unterstützt Gemeinschaft.Online?</h3>
+          <p>Mitgewirkt und unterstützt haben Silbernetz e.V., Wege aus der Einsamkeit e.V., EVENTPHONE, easybell, nebenan.de, Jugend Hackt, Marina Weisband, Saskia Esken (SPD), Microsoft Deutschland, Daniel Daniel Domscheidt Berg und seinem Team, Härting Rechtsanwälte, iRights.Lab sowie vielen weiteren.</p>
         </div>
       </li>
 
@@ -266,7 +141,7 @@
           <h3 class="text-points__title">Wie funktioniert das?</h3>
           <p>Wer jemanden zum Reden braucht, kann direkt die Nummer von Silbernetz.de wählen und bekommt einen Gesprächspartner.</p>
            
-          <p>Wer praktische Hilfe benötigt, wie Einkäufe erledigen, Hund ausführen, einfache Handreichungen und ähnliches, kann auf der Gemeinschaft.online-Nummer seine Postleitzahl eingeben und angeben, welche Art der Hilfe er benötigt. Diese Informationen werden an nebenan.de übergeben, die diese Hilfeanfragen in ihre jeweiligen lokalen Netzwerke weiterleiten. Dort können sich Mitglieder, die sich für die Nachbarschaftshilfe angeboten haben, melden und die Hilfe übernehmen.</p>
+          <p>Wer praktische Hilfe benötigt, wie Einkäufe erledigen, Hund ausführen, einfache Handreichungen und ähnliches, kann auf der Gemeinschaft.Online-Nummer seine Postleitzahl eingeben und angeben, welche Art der Hilfe er benötigt. Diese Informationen werden an nebenan.de übergeben, die diese Hilfeanfragen in ihre jeweiligen lokalen Netzwerke weiterleiten. Dort können sich Mitglieder, die sich für die Nachbarschaftshilfe angeboten haben, melden und die Hilfe übernehmen.</p>
         </div>
       </li>
 
@@ -280,7 +155,7 @@
       <li class="text-points__item col-6@md">
         <div class="text-component">
           <h3 class="text-points__title">Kostet mich das was?</h3>
-          <p>Für die Gemeinschaft.online-Nummer können die ortsüblichen Telefongebühren anfallen. Die Nummer von Silbernetz.de ist kostenlos. Weitere Kosten fallen nicht an.</p>
+          <p>Für die Gemeinschaft.Online-Nummer können die ortsüblichen Telefongebühren anfallen. Die Nummer von Silbernetz.de ist kostenlos. Weitere Kosten fallen nicht an.</p>
         </div>
       </li>
     </ol>
@@ -302,8 +177,8 @@
 
       <div class="main-footer__colophon">
         <div class="main-footer__colophon-nav">
-          <span>&copy;&nbsp;2020&nbsp;krisenkultur.de</span>
-          <a href="/impressum.html">Impressum</a>
+          <span>&copy;&nbsp;2020&nbsp;gemeinschaft.online</span>
+          <a href="impressum.html">Impressum</a>
           <!--<a href="#0">Datenschutz</a>-->
         </div>
         <!--
@@ -324,7 +199,7 @@
                 </li>
           
                 <li>
-                  <a href="#0">
+                  <a href="https://www.instagram.com/gemeinsam.online">
                     <svg class="icon" viewBox="0 0 32 32"><title>Follow us on Instagram</title><path d="M16,3.7c4,0,4.479.015,6.061.087a6.426,6.426,0,0,1,4.51,1.639,6.426,6.426,0,0,1,1.639,4.51C28.282,11.521,28.3,12,28.3,16s-.015,4.479-.087,6.061a6.426,6.426,0,0,1-1.639,4.51,6.425,6.425,0,0,1-4.51,1.639c-1.582.072-2.056.087-6.061.087s-4.479-.015-6.061-.087a6.426,6.426,0,0,1-4.51-1.639,6.425,6.425,0,0,1-1.639-4.51C3.718,20.479,3.7,20.005,3.7,16s.015-4.479.087-6.061a6.426,6.426,0,0,1,1.639-4.51A6.426,6.426,0,0,1,9.939,3.79C11.521,3.718,12,3.7,16,3.7M16,1c-4.073,0-4.584.017-6.185.09a8.974,8.974,0,0,0-6.3,2.427,8.971,8.971,0,0,0-2.427,6.3C1.017,11.416,1,11.927,1,16s.017,4.584.09,6.185a8.974,8.974,0,0,0,2.427,6.3,8.971,8.971,0,0,0,6.3,2.427c1.6.073,2.112.09,6.185.09s4.584-.017,6.185-.09a8.974,8.974,0,0,0,6.3-2.427,8.971,8.971,0,0,0,2.427-6.3c.073-1.6.09-2.112.09-6.185s-.017-4.584-.09-6.185a8.974,8.974,0,0,0-2.427-6.3,8.971,8.971,0,0,0-6.3-2.427C20.584,1.017,20.073,1,16,1Z"></path><path d="M16,8.3A7.7,7.7,0,1,0,23.7,16,7.7,7.7,0,0,0,16,8.3ZM16,21a5,5,0,1,1,5-5A5,5,0,0,1,16,21Z"></path><circle cx="24.007" cy="7.993" r="1.8"></circle></svg>
                   </a>
                 </li>
