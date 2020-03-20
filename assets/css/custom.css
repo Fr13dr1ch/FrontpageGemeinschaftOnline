@@ -9,15 +9,25 @@ body {
 }
 
 .header{
-  background: transparent;
-}
-
-#logo{
-  max-width: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .header__link{
   text-decoration: none;
+}
+
+.header-logo{
+  max-height: 180px;
+  padding-right: 40px;
+}
+
+.header__item{
+  margin-left: var(--space-xs);
+}
+
+#logo{
+  max-width: 200px;
 }
 
 .hero{
@@ -32,3 +42,4 @@ li > div, .light {
   background-color: white;
   padding: 20px;
 }
+
